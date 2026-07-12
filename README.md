@@ -1,6 +1,6 @@
 # zed-phpstan
 
-Zed integration for [`phpstan-language-server`](https://github.com/laraochan/phpstan-language-server).
+Zed integration for [`phpstan-diagnostics-lsp`](https://github.com/laraochan/phpstan-diagnostics-lsp).
 
 > [!WARNING]
 > This project is currently a prototype and may change significantly before
@@ -8,12 +8,12 @@ Zed integration for [`phpstan-language-server`](https://github.com/laraochan/php
 
 This extension only starts the standalone language server. For supported
 PHPStan versions, configuration, diagnostics, development, and other details,
-see the [`phpstan-language-server` README](https://github.com/laraochan/phpstan-language-server#readme).
+see the [`phpstan-diagnostics-lsp` README](https://github.com/laraochan/phpstan-diagnostics-lsp#readme).
 
 ## Install
 
-Install and configure [`phpstan-language-server`](https://github.com/laraochan/phpstan-language-server)
-by following its README. Make sure the installed `phpstan-language-server`
+Install and configure [`phpstan-diagnostics-lsp`](https://github.com/laraochan/phpstan-diagnostics-lsp)
+by following its README. Make sure the installed `phpstan-diagnostics-lsp`
 command is available on Zed's `PATH`.
 
 Install this extension from Zed's Extensions view, or use **Install Dev
@@ -33,7 +33,7 @@ Use Intelephense for PHP language features and PHPStan for diagnostics:
 }
 ```
 
-`phpstan-language-server` uses the workspace's `vendor/bin/phpstan` by
+`phpstan-diagnostics-lsp` uses the workspace's `vendor/bin/phpstan` by
 default. To override its paths or memory limit, add its initialization options:
 
 ```json
@@ -50,7 +50,7 @@ default. To override its paths or memory limit, add its initialization options:
 }
 ```
 
-See the [`phpstan-language-server` README](https://github.com/laraochan/phpstan-language-server#readme)
+See the [`phpstan-diagnostics-lsp` README](https://github.com/laraochan/phpstan-diagnostics-lsp#readme)
 for the supported initialization options and project requirements.
 
 ## Development
